@@ -1,0 +1,13 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: msa-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/ilbo18/msa-config.git
+          #username: 유저명
+          #password: 패스워드
