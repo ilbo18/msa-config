@@ -1,2 +1,2 @@
 config:
-  test: config-dev config test change refresh
+  test: config-dev config test change refresh 2222222
